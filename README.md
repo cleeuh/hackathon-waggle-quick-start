@@ -1,4 +1,4 @@
-# Sage/Waggle API Quick Start with Examples
+# Python Sage/Waggle API Quick Start with Examples
 
 ## Prerequisites
 
@@ -18,14 +18,14 @@ The query function accepts the following arguments:
 - `tail` Limit results to tail latest values per series. (Only one of head or tail can be provided.)
 - `filter` Key-value patterns to filter data on.
 
-### Filtering
+### API Quick Example
 
 ```python3
 df = sage_data_client.query(
-    start="-1h",
+    start="-1h",                    # last hour
     filter={
         "name": "env.temperature",  # filter by metric
-        "vsn": "W069|W097",         # filter by node W069 or W097
+        "vsn": "W069|W097",         # and filter by node W069 or W097
     }
 )
 ```
@@ -45,6 +45,6 @@ df = sage_data_client.query(
 
 ## Additional Resources
 
-[sage_data_client python package](https://pypi.org/project/sage-data-client/)
+[sage_data_client](https://pypi.org/project/sage-data-client/) python package
 
 [Sage Portal](https://portal.sagecontinuum.org/query-browser?start=-1m&page=0) for easy python snippet generation
