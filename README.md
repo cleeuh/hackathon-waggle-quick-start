@@ -1,6 +1,8 @@
+# Sage/Waggle API Quick Start with Examples
+
 ## Prerequisites
 
-Install the python [https://pypi.org/project/sage-data-client/](package) to access Sage Data Portal
+Install the python [package](https://pypi.org/project/sage-data-client/) to access Sage Data Portal
 
 ```python3
 pip3 install sage_data_client
@@ -43,6 +45,6 @@ df = sage_data_client.query(
 
 ## Additional Resources
 
-[https://pypi.org/project/sage-data-client/](sage_data_client python package)
+[sage_data_client python package](https://pypi.org/project/sage-data-client/)
 
-[https://portal.sagecontinuum.org/query-browser?start=-1m&page=0](Sage Portal) for easy python snippet generation
+[Sage Portal](https://portal.sagecontinuum.org/query-browser?start=-1m&page=0) for easy python snippet generation
