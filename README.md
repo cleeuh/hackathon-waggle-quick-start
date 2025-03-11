@@ -35,7 +35,7 @@ df = sage_data_client.query(
 ## Examples
 
 > [!NOTE]  
-> Occasionally some sensors maybe offline due to unforseen circumstances and fail to update the api service. Therefore, some of the examples thatuse `start="-1h"` may not always work.
+> Occasionally some sensors maybe offline due to unforseen circumstances and fail to update the api service. Therefore, some of the examples that use `start="-1h"` may not always work.
 
 `list-metrics.py` lists all possible metrics associated with node W069 within the past hour
 
