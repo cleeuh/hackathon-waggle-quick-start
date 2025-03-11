@@ -18,6 +18,8 @@ The query function accepts the following arguments:
 - `tail` Limit results to tail latest values per series. (Only one of head or tail can be provided.)
 - `filter` Key-value patterns to filter data on.
 
+The returned object is a pandas dataframe
+
 ### API Quick Example
 
 ```python3
