@@ -37,7 +37,7 @@ df = sage_data_client.query(
 > [!NOTE]  
 > Occasionally some sensors maybe offline due to unforseen circumstances and fail to update the api service. Therefore, some of the examples that use `start="-1h"` may not always work.
 
-`list-metrics.py` lists all possible metrics associated with node W069 within the past hour
+`list-metrics.py` lists all ssible metrics associated with node W069 within the past hour
 
 `query-temperature.py` gets the env.temperature metric for all nodes within the past hour and shows the aggregate temperature associated with each node
 
@@ -45,8 +45,12 @@ df = sage_data_client.query(
 
 `query-meta.py` get the value associated with the host (compute module in node) with matching description and sensor name
 
+`wildcard.py` lists all possible metrics starting with sys.gps. associated with node W069 within the past hour
+
 ## Additional Resources
 
 [sage_data_client](https://pypi.org/project/sage-data-client/) python package
 
 [Sage Portal](https://portal.sagecontinuum.org/query-browser?start=-1m&page=0) for easy python snippet generation
+
+[Sage Portal Docs](https://sagecontinuum.org/docs/tutorials/accessing-data) Additional resource for data api
