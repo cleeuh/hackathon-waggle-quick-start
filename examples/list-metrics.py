@@ -5,8 +5,13 @@ df = sage_data_client.query(
     start="-1h",
     filter={
         "vsn": "W069",
+        # "name": "",
+        # "task": "",
+        # "plugin": "",
     }
 )
 
-print(df)
-print(df["name"].unique())
+print(df, "\n")
+print(df["name"].unique(), "\n")
+print(df["meta.task"].unique(), "\n")
+print(df["meta.plugin"].unique(), "\n")
